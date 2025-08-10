@@ -1,6 +1,6 @@
-def main():
-    print("Hello from web-analyses-empowered-by-ai!")
+from fastapi import FastAPI
+from src.contollers import web_scraper
 
+app = FastAPI()
 
-if __name__ == "__main__":
-    main()
+app.include_router(web_scraper.router, prefix="/web_scraper", tags=["web_scraper"])
