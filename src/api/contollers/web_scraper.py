@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from src.services.web_scraper import WebScraperService
+from src.api.services.web_scraper import WebScraperService
 
 router = APIRouter()
 

@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from src.contollers import web_scraper
+from src.api.contollers import web_scraper
 
 app = FastAPI()
 
