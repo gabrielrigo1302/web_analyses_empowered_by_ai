@@ -6,9 +6,14 @@
 
 - **FastAPI**: lib que vai ser utilizada para facilitar a criação de API. Referência: https://fastapi.tiangolo.com/#requirements
 
+- **Ruff**: prettier;
+
+- **Scrapy**: biblioteca que será usada para web scrap. Referência: https://www.scrapy.org
+
 ## Rodando o Projeto
 
 - **Inicializar**: [bash] fastapi dev main.py;
 - **URL**: [url]  http://127.0.0.1:8000;
 - **Corrigir erros de formatação**: [bash] uv run ruff format;
 - **Ler Documentação da API**: [url]  http://127.0.0.1:8000/docs
+- **Rodar scrap**: [bash] (no diretório do web_scraper) scrapy crawl "nome do spider"
